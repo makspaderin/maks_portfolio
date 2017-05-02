@@ -1,0 +1,52 @@
+1493724504a:1:{s:10:"online.htm";a:9:{s:8:"fileName";s:10:"online.htm";s:7:"content";s:1083:"title = "OnLine"
+url = "/online"
+layout = "default"
+is_hidden = 0
+==
+<body id="piipage">
+        <div class="container-fluid">
+            <a href="/#portfoliosection"><div id="backlink">
+              <p>Back</p>
+            </div></a>
+            <a href="/"><div id="logolink">
+             MP
+            </div></a>
+        </div>
+
+      <section id="portfolioiteminfo">
+	      	<div class="piiimg col-xs-12 col-lg-6">
+	            <img src="{{'assets/img/fullwp/online.jpg' | theme }}" alt="OnLine">
+	        </div>
+	        <div class="piicontent col-xs-12 col-lg-6">
+		<div class="piitext">
+	            <h1> OnLine </h1>
+	            <h2> OnLine is a small-sized IT company from Yaroslavl, Russia. <br><br> The website is written from scratch but the layout idea was taken from Bootstrap Creative template. <br><br> Role: Front-End Developer, Designer.</h2>
+	            <a href="http://optinet.ru" target="_blank"><div class="btn mainbtn hvr-sweep-to-right">
+	              <p>View</p>
+	            </div></a>
+		</div>
+	        </div>
+      </section>";s:5:"mtime";i:1493571614;s:6:"markup";s:1014:"<body id="piipage">
+        <div class="container-fluid">
+            <a href="/#portfoliosection"><div id="backlink">
+              <p>Back</p>
+            </div></a>
+            <a href="/"><div id="logolink">
+             MP
+            </div></a>
+        </div>
+
+      <section id="portfolioiteminfo">
+	      	<div class="piiimg col-xs-12 col-lg-6">
+	            <img src="{{'assets/img/fullwp/online.jpg' | theme }}" alt="OnLine">
+	        </div>
+	        <div class="piicontent col-xs-12 col-lg-6">
+		<div class="piitext">
+	            <h1> OnLine </h1>
+	            <h2> OnLine is a small-sized IT company from Yaroslavl, Russia. <br><br> The website is written from scratch but the layout idea was taken from Bootstrap Creative template. <br><br> Role: Front-End Developer, Designer.</h2>
+	            <a href="http://optinet.ru" target="_blank"><div class="btn mainbtn hvr-sweep-to-right">
+	              <p>View</p>
+	            </div></a>
+		</div>
+	        </div>
+      </section>";s:4:"code";N;s:5:"title";s:6:"OnLine";s:3:"url";s:7:"/online";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

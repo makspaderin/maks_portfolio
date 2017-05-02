@@ -1,0 +1,196 @@
+1493724504a:1:{s:9:"index.htm";a:9:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:4852:"title = "Maksim Paderin - Web Developer"
+url = "/"
+layout = "default"
+is_hidden = 0
+==
+<body id="mainpage">
+        <div class="container-fluid">
+            <div id="conlink">
+              <p>{{'Contacts'|_}}</p>
+            </div>
+            <a href="/"><div id="logolink">
+             MP
+            </div></a>
+        </div>
+
+      <nav id="contactsbar">
+        <a><img src="{{'assets/img/icons/close.png' | theme}}" class="grow" id="close" alt="close it"></a>
+        <ul>
+	          <li>Telegram: mvpaderin </li>
+              <li>Skype: Maksim Paderin</li>
+              <li>Email: <a href="mailto:mvpaderin@gmail.com">mvpaderin@gmail.com</a></li>
+              <li>
+              <div>
+                <a class="fb socicons" href="https://www.facebook.com/maksim.paderin" target="_blank">
+                        <img class="fbb" src="{{'assets/img/icons/fb.png' | theme}}">
+                        <img class="fbw" src="{{'assets/img/icons/fb_white.png' | theme}}">
+                        </a>
+                <a class="ld socicons" href="https://www.linkedin.com/in/makspaderin" target="_blank">
+                        <img class="ldb" src="{{'assets/img/icons/linkedin.png' | theme}}">
+                        <img class="ldw" src="{{'assets/img/icons/linkedin_white.png' | theme}}">
+                        </a>
+                <a class="gh socicons" href="https://github.com/makspaderin" target="_blank">
+                        <img class="ghb" src="{{'assets/img/icons/octocat.png' | theme}}">
+                        <img class="ghw" src="{{'assets/img/icons/octocat_white.png' | theme}}">
+                        </a>
+                <a class="cv socicons" href="https://drive.google.com/open?id=0B7M7tHZKiaIpbW91YWUwcFpBYVU" target="_blank">
+                        <img class="cvb" src="{{'assets/img/icons/cv.png' | theme}}">
+                        <img class="cvw" src="{{'assets/img/icons/cv_white.png' | theme}}">
+                        </a>
+		<!-- <a class="in socicons" href="https://www.instagram.com/makspaderin/" target="_blank">
+                        <img class="inb" src="{{'assets/img/icons/instagram.png' | theme}}">
+                        <img class="inw" src="{{'assets/img/icons/instagram_white.png' | theme}}">
+                        </a> -->
+		<a class="vk socicons" href="https://vk.com/makspaderin" target="_blank">
+                        <img class="vkb" src="{{'assets/img/icons/vk.png' | theme}}">
+                        <img class="vkw" src="{{'assets/img/icons/vk_white.png' | theme}}">
+                        </a>           
+		      </div>
+              </li>
+        </ul>
+      </nav>
+
+      <section id="homepage">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 homepagetext">
+                    <h1>Hi. I'm Maks.</h1>
+                    <h2>{{'A third year Finnish student and a beginning web developer.'|_}}</h2>
+                    <br>
+                    <a class="page-scroll" href="#portfoliosection"><div class="btn mainbtn hvr-sweep-to-right">
+                      <p>{{'Works'|_}} <!-- &darr; --> </p>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="portfoliosection">
+            <div class="portfolioitem top left col-xs-12 col-lg-offset-2 col-lg-4">
+              <a href="uma">
+                <img class="portfolioimg" src="{{'assets/img/scr/uma.png' | theme}}" alt="UmaGraphics">
+                <div class="overlay">
+                  <p class="description">UmaGraphics</p>
+                </div>
+              </a>
+            </div>
+            <div class="portfolioitem top right col-xs-12 col-lg-4">
+              <a href="online">
+                <img class="portfolioimg" src="{{'assets/img/scr/online.png' | theme}}" alt="OnLine">
+                <div class="overlay">
+                    <p class="description">OnLine</p>
+                </div>
+              </a>
+            </div>
+            <div class="portfolioitem left col-xs-12 col-lg-offset-2 col-lg-4">
+              <a href="serenity">
+                <img class="portfolioimg" src="{{'assets/img/scr/serenity.png' | theme}}" alt="Serenity">
+                <div class="overlay">
+                  <p class="description">Serenity</p>
+                </div>
+              </a>
+            </div>
+            <div class="portfolioitem right col-xs-12 col-lg-4">
+              <a href="oceanideas">
+                <img class="portfolioimg" src="{{'assets/img/scr/oceanideas.png' | theme}}" alt="Serenity">
+                <div class="overlay">
+                  <p class="description">OceanIdeas</p>
+                </div>
+              </a>
+            </div>
+      </section>";s:5:"mtime";i:1493574629;s:6:"markup";s:4765:"<body id="mainpage">
+        <div class="container-fluid">
+            <div id="conlink">
+              <p>{{'Contacts'|_}}</p>
+            </div>
+            <a href="/"><div id="logolink">
+             MP
+            </div></a>
+        </div>
+
+      <nav id="contactsbar">
+        <a><img src="{{'assets/img/icons/close.png' | theme}}" class="grow" id="close" alt="close it"></a>
+        <ul>
+	          <li>Telegram: mvpaderin </li>
+              <li>Skype: Maksim Paderin</li>
+              <li>Email: <a href="mailto:mvpaderin@gmail.com">mvpaderin@gmail.com</a></li>
+              <li>
+              <div>
+                <a class="fb socicons" href="https://www.facebook.com/maksim.paderin" target="_blank">
+                        <img class="fbb" src="{{'assets/img/icons/fb.png' | theme}}">
+                        <img class="fbw" src="{{'assets/img/icons/fb_white.png' | theme}}">
+                        </a>
+                <a class="ld socicons" href="https://www.linkedin.com/in/makspaderin" target="_blank">
+                        <img class="ldb" src="{{'assets/img/icons/linkedin.png' | theme}}">
+                        <img class="ldw" src="{{'assets/img/icons/linkedin_white.png' | theme}}">
+                        </a>
+                <a class="gh socicons" href="https://github.com/makspaderin" target="_blank">
+                        <img class="ghb" src="{{'assets/img/icons/octocat.png' | theme}}">
+                        <img class="ghw" src="{{'assets/img/icons/octocat_white.png' | theme}}">
+                        </a>
+                <a class="cv socicons" href="https://drive.google.com/open?id=0B7M7tHZKiaIpbW91YWUwcFpBYVU" target="_blank">
+                        <img class="cvb" src="{{'assets/img/icons/cv.png' | theme}}">
+                        <img class="cvw" src="{{'assets/img/icons/cv_white.png' | theme}}">
+                        </a>
+		<!-- <a class="in socicons" href="https://www.instagram.com/makspaderin/" target="_blank">
+                        <img class="inb" src="{{'assets/img/icons/instagram.png' | theme}}">
+                        <img class="inw" src="{{'assets/img/icons/instagram_white.png' | theme}}">
+                        </a> -->
+		<a class="vk socicons" href="https://vk.com/makspaderin" target="_blank">
+                        <img class="vkb" src="{{'assets/img/icons/vk.png' | theme}}">
+                        <img class="vkw" src="{{'assets/img/icons/vk_white.png' | theme}}">
+                        </a>           
+		      </div>
+              </li>
+        </ul>
+      </nav>
+
+      <section id="homepage">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 homepagetext">
+                    <h1>Hi. I'm Maks.</h1>
+                    <h2>{{'A third year Finnish student and a beginning web developer.'|_}}</h2>
+                    <br>
+                    <a class="page-scroll" href="#portfoliosection"><div class="btn mainbtn hvr-sweep-to-right">
+                      <p>{{'Works'|_}} <!-- &darr; --> </p>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="portfoliosection">
+            <div class="portfolioitem top left col-xs-12 col-lg-offset-2 col-lg-4">
+              <a href="uma">
+                <img class="portfolioimg" src="{{'assets/img/scr/uma.png' | theme}}" alt="UmaGraphics">
+                <div class="overlay">
+                  <p class="description">UmaGraphics</p>
+                </div>
+              </a>
+            </div>
+            <div class="portfolioitem top right col-xs-12 col-lg-4">
+              <a href="online">
+                <img class="portfolioimg" src="{{'assets/img/scr/online.png' | theme}}" alt="OnLine">
+                <div class="overlay">
+                    <p class="description">OnLine</p>
+                </div>
+              </a>
+            </div>
+            <div class="portfolioitem left col-xs-12 col-lg-offset-2 col-lg-4">
+              <a href="serenity">
+                <img class="portfolioimg" src="{{'assets/img/scr/serenity.png' | theme}}" alt="Serenity">
+                <div class="overlay">
+                  <p class="description">Serenity</p>
+                </div>
+              </a>
+            </div>
+            <div class="portfolioitem right col-xs-12 col-lg-4">
+              <a href="oceanideas">
+                <img class="portfolioimg" src="{{'assets/img/scr/oceanideas.png' | theme}}" alt="Serenity">
+                <div class="overlay">
+                  <p class="description">OceanIdeas</p>
+                </div>
+              </a>
+            </div>
+      </section>";s:4:"code";N;s:5:"title";s:30:"Maksim Paderin - Web Developer";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}
