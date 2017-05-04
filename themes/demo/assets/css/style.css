@@ -499,6 +499,7 @@ footer {
 }
 
 .notfoundtext {
+	color: white;
     text-align: center;
     height: 45%;
 	position: absolute;
