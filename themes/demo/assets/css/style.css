@@ -277,12 +277,16 @@ img.fbb, .fb:hover img.fbw, img.ldb, .fb:hover img.ldw, img.ghb, .fb:hover img.g
 	margin-bottom: 1%;
 	padding: 0%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: all .2s ease-in-out;
 }
 
 .portfolioitem, .right {
 	box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2), 5px 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.portfolioitem:hover {
+	transform: scale(1.02);
+}
 
 .top {
 	margin-top: 4%;
