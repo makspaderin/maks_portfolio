@@ -350,7 +350,8 @@ img.fbb, .fb:hover img.fbw, img.ldb, .fb:hover img.ldw, img.ghb, .fb:hover img.g
 /* Portfolio Item Info Page */
 
 #piipage {
-	background-image: url('../img/grid.png');
+	/* background-image: url('../img/grid.png'); */
+	background-color: #22211f;
 	position: relative;
 	min-height: 100vh;
 }
@@ -407,6 +408,7 @@ img.fbb, .fb:hover img.fbw, img.ldb, .fb:hover img.ldw, img.ghb, .fb:hover img.g
 	margin: 0 auto;
 	display: block;
 	text-align: center;
+	color: white;
 }
 
 .techicon {
