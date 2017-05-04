@@ -6,7 +6,7 @@ is_hidden = 0
 <body id="mainpage">
         <div class="container-fluid">
             <div id="conlink">
-              <p>{{'Contacts'|_}}</p>
+              <p>Contacts</p>
             </div>
             <a href="/"><div id="logolink">
              MP
@@ -20,7 +20,7 @@ is_hidden = 0
               <li>Skype: Maksim Paderin</li>
               <li>Email: <a href="mailto:mvpaderin@gmail.com">mvpaderin@gmail.com</a></li>
               <li>
-              <div>
+              <!-- <div>
                 <a class="fb socicons" href="https://www.facebook.com/maksim.paderin" target="_blank">
                         <img class="fbb" src="{{'assets/img/icons/fb.png' | theme}}">
                         <img class="fbw" src="{{'assets/img/icons/fb_white.png' | theme}}">
@@ -40,25 +40,31 @@ is_hidden = 0
 		<!-- <a class="in socicons" href="https://www.instagram.com/makspaderin/" target="_blank">
                         <img class="inb" src="{{'assets/img/icons/instagram.png' | theme}}">
                         <img class="inw" src="{{'assets/img/icons/instagram_white.png' | theme}}">
-                        </a> -->
+                        </a>
 		<a class="vk socicons" href="https://vk.com/makspaderin" target="_blank">
                         <img class="vkb" src="{{'assets/img/icons/vk.png' | theme}}">
                         <img class="vkw" src="{{'assets/img/icons/vk_white.png' | theme}}">
-                        </a>           
+                      </a> -->
 		      </div>
               </li>
         </ul>
       </nav>
 
       <section id="homepage">
+        <img src="{{'assets/img/bg.jpg' | theme}}" id="bgphoto">
         <div class="container">
             <div class="row">
+              <div id="bgcircle">
                 <div class="col-lg-12 homepagetext">
-                    <h1>Hi. I'm Maks.</h1>
-                    <h2>{{'A third year Finnish student and a beginning web developer.'|_}}</h2>
+                    <h1 id="hi">Hi!</h1>
+                    <h1 id="greeting"> I'm Maks</h1>
+                    <hr>
+                    <h2>Finnish student and a <br> beginning web developer</h2>
+                </div>
+              </div>
                     <br>
                     <a class="page-scroll" href="#portfoliosection"><div class="btn mainbtn hvr-sweep-to-right">
-                      <p>{{'Works'|_}} <!-- &darr; --> </p>
+                      <p>Works</p>
                     </div></a>
                 </div>
             </div>
@@ -98,4 +104,34 @@ is_hidden = 0
                 </div>
               </a>
             </div>
+      </section>
+
+      <section id="contactssection">
+        <h1> Me in social networks </h1>
+        <div>
+          <a class="fb socicons" href="https://www.facebook.com/maksim.paderin" target="_blank">
+                  <img class="fbb" src="{{'assets/img/icons/fb.png' | theme}}">
+                  <img class="fbw" src="{{'assets/img/icons/fb_white.png' | theme}}">
+                  </a>
+          <a class="ld socicons" href="https://www.linkedin.com/in/makspaderin" target="_blank">
+                  <img class="ldb" src="{{'assets/img/icons/linkedin.png' | theme}}">
+                  <img class="ldw" src="{{'assets/img/icons/linkedin_white.png' | theme}}">
+                  </a>
+          <a class="gh socicons" href="https://github.com/makspaderin" target="_blank">
+                  <img class="ghb" src="{{'assets/img/icons/octocat.png' | theme}}">
+                  <img class="ghw" src="{{'assets/img/icons/octocat_white.png' | theme}}">
+                  </a>
+          <!--  <a class="cv socicons" href="https://drive.google.com/open?id=0B7M7tHZKiaIpbW91YWUwcFpBYVU" target="_blank">
+                  <img class="cvb" src="{{'assets/img/icons/cv.png' | theme}}">
+                  <img class="cvw" src="{{'assets/img/icons/cv_white.png' | theme}}">
+                  </a>
+          <a class="in socicons" href="https://www.instagram.com/makspaderin/" target="_blank">
+                  <img class="inb" src="{{'assets/img/icons/instagram.png' | theme}}">
+                  <img class="inw" src="{{'assets/img/icons/instagram_white.png' | theme}}">
+                  </a> -->
+          <a class="vk socicons" href="https://vk.com/makspaderin" target="_blank">
+                  <img class="vkb" src="{{'assets/img/icons/vk.png' | theme}}">
+                  <img class="vkw" src="{{'assets/img/icons/vk_white.png' | theme}}">
+                  </a>
+    </div>
       </section>
