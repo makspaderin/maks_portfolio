@@ -79,6 +79,8 @@
 	font-weight: 200;
 	letter-spacing: 1px;
 	padding-top: 1.5%;
+	width: 340px;
+	margin: 0 auto;
 }
 
 hr {
@@ -633,7 +635,10 @@ footer {
 }
 
 .homepagetext h2 {
+	margin: 0 auto;
 	font-size: 18px;
+	width: 60vw;
+	padding-top: 0.5%;
 }
 
 #logolink {
