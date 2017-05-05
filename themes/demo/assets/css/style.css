@@ -161,7 +161,8 @@ hr {
 	position: fixed;
   	right: 0;
 	width: 24%;
-	background-color: #000;
+	/* background-color: #000; */
+	background-color: #22211f;
 	height: 100%;
 	margin-right: -24%;
 	z-index: 12;
