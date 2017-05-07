@@ -1,4 +1,4 @@
-1493954631a:1:{s:9:"index.htm";a:9:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:6970:"title = "Maksim Paderin - Web Developer"
+1494149887a:1:{s:9:"index.htm";a:9:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:6965:"title = "Maksim Paderin - Web Developer"
 url = "/"
 layout = "default"
 is_hidden = 0
@@ -59,7 +59,7 @@ is_hidden = 0
                     <h1 id="hi">Hi!</h1>
                     <h1 id="greeting"> I'm Maks</h1>
                     <hr>
-                    <h2>Finnish student and a <br> beginning web developer</h2><br>
+                    <h2>Finnish student and a beginning web developer</h2><br>
                 </div>
               </div>
                     <!-- <a class="page-scroll" href="#portfoliosection">
@@ -136,7 +136,7 @@ is_hidden = 0
                   </a>
     </div>
       </section>
-";s:5:"mtime";i:1493939951;s:6:"markup";s:6881:"<body id="mainpage">
+";s:5:"mtime";i:1493954748;s:6:"markup";s:6876:"<body id="mainpage">
         <div class="container-fluid">
             <div id="conlink">
               <p>Contacts</p>
@@ -192,7 +192,7 @@ is_hidden = 0
                     <h1 id="hi">Hi!</h1>
                     <h1 id="greeting"> I'm Maks</h1>
                     <hr>
-                    <h2>Finnish student and a <br> beginning web developer</h2><br>
+                    <h2>Finnish student and a beginning web developer</h2><br>
                 </div>
               </div>
                     <!-- <a class="page-scroll" href="#portfoliosection">

@@ -114,7 +114,7 @@ class __TwigTemplate_f8d0c0278b0e9f201efb263308b2cfc476f8723345ba59928a4bba2fb81
                     <h1 id=\"hi\">Hi!</h1>
                     <h1 id=\"greeting\"> I'm Maks</h1>
                     <hr>
-                    <h2>Finnish student and a <br> beginning web developer</h2><br>
+                    <h2>Finnish student and a beginning web developer</h2><br>
                 </div>
               </div>
                     <!-- <a class=\"page-scroll\" href=\"#portfoliosection\">
@@ -322,7 +322,7 @@ class __TwigTemplate_f8d0c0278b0e9f201efb263308b2cfc476f8723345ba59928a4bba2fb81
                     <h1 id=\"hi\">Hi!</h1>
                     <h1 id=\"greeting\"> I'm Maks</h1>
                     <hr>
-                    <h2>Finnish student and a <br> beginning web developer</h2><br>
+                    <h2>Finnish student and a beginning web developer</h2><br>
                 </div>
               </div>
                     <!-- <a class=\"page-scroll\" href=\"#portfoliosection\">
