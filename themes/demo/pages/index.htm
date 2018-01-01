@@ -5,20 +5,20 @@ is_hidden = 0
 ==
 <body id="mainpage">
         <div class="container-fluid">
-            <div id="conlink">
-              <p>Contacts</p>
+            <div id="conlink" class="m-5">
+              <p class="my-1 mt-3">Contacts</p>
             </div>
-            <a href="/"><div id="logolink">
+            <a href="/"><div class="m-5" id="logolink">
              MP
             </div></a>
         </div>
 
       <nav id="contactsbar">
-        <a><img src="{{'assets/img/icons/close.png' | theme}}" class="grow" id="close" alt="close it"></a>
-        <ul>
-	          <li>Telegram: <a href='http://telegram.me/mvpaderin'>mvpaderin</a></li>
-              <li>Skype: Maksim Paderin</li>
-              <li>Email: <a href='mailto:mvpaderin@gmail.com'>mvpaderin@gmail.com</a></li>
+        <a><img src="{{'assets/img/icons/close.png' | theme}}" class="grow m-5" id="close" alt="close it"></a>
+        <ul class="p-3 valign">
+	          <li class="py-3">Telegram: <a class="solidlink" href='http://telegram.me/mvpaderin'>mvpaderin</a></li>
+              <li class="py-3">Skype: Maksim Paderin</li>
+              <li class="py-3">Email: <a class="solidlink" href='mailto:mvpaderin@gmail.com'>mvpaderin@gmail.com</a></li>
         </ul>
       </nav>
 
@@ -27,11 +27,11 @@ is_hidden = 0
         <div class="container">
             <div class="row">
               <div id="bgcircle">
-                <div class="col-lg-12 homepagetext">
+                <div class="col-lg-12 homepagetext valign">
                     <h1 id="hi">Hi!<br>
                     <span id="greeting">I'm Maks</span></h1>
                     <hr>
-                    <h2>Finnish student and a beginning web developer</h2><br>
+                    <h2>Finnish student and a web developer</h2><br>
                 </div>
               </div>
                     <!-- <a class="page-scroll" href="#portfoliosection">
@@ -45,7 +45,12 @@ is_hidden = 0
       </section>
 
       <section id="portfoliosection">
-            <div class="portfolioitem top left col-xs-12 col-lg-offset-2 col-lg-4">
+            <div class="text-center whitetext my-5">
+              <p>Currently I work as a Web developer in Bording A/S, Aarhus, Denmark.</p>
+              <p class="my-4">You can check my CV <a target="_blank" href="https://drive.google.com/file/d/0B7M7tHZKiaIpbW91YWUwcFpBYVU/view?usp=sharing" class="solidlink">there<a>.</p>
+            </div>
+            <div class="row mb-3" id="portfolioitemgroup">
+            <div class="portfolioitem left col-xs-12 offset-lg-2 col-lg-4 mb-3">
               <a href="uma">
                 <img class="portfolioimg" src="{{'assets/img/scr/uma.png' | theme}}" alt="UmaGraphics">
                 <div class="overlay">
@@ -53,7 +58,7 @@ is_hidden = 0
                 </div>
               </a>
             </div>
-            <div class="portfolioitem top right col-xs-12 col-lg-4">
+            <div class="portfolioitem right col-xs-12 col-lg-4 mb-3">
               <a href="online">
                 <img class="portfolioimg" src="{{'assets/img/scr/online.png' | theme}}" alt="OnLine">
                 <div class="overlay">
@@ -61,7 +66,7 @@ is_hidden = 0
                 </div>
               </a>
             </div>
-            <div class="portfolioitem left col-xs-12 col-lg-offset-2 col-lg-4">
+            <div class="portfolioitem left col-xs-12 offset-lg-2 col-lg-4">
               <a href="serenity">
                 <img class="portfolioimg" src="{{'assets/img/scr/serenity.png' | theme}}" alt="Serenity">
                 <div class="overlay">
@@ -77,10 +82,11 @@ is_hidden = 0
                 </div>
               </a>
             </div>
+            </div>
       </section>
 
       <section id="contactssection">
-        <h1> Me in social networks </h1>
+        <h1 class="my-3 mb-4"> Me in social networks </h1>
         <div class="socialbar">
           <a class="fb socicons" href="https://www.facebook.com/maksim.paderin" target="_blank">
                   <img class="fbb" src="{{'assets/img/icons/fb.png' | theme}}">

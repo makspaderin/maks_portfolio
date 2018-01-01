@@ -47,27 +47,18 @@
   justify-content: center;
   flex-direction: column;
   height: 400px;
+  font-family: 'Josefin Sans';
 }
 
 .homepagetext h1 {
 	letter-spacing: 4px;
+	font-size: 75px;
 	text-transform: uppercase;
 }
 
-#hi {
-	font-family: 'Charlevoix-Light';
-	font-size: 75px;
-}
-
-#greeting {
-	font-family: 'Charlevoix-Medium';
-	font-size: 70px;
-}
-
 .homepagetext h2 {
+    font-family: 'Raleway';
 	font-size: 26px;
-	font-family: 'GL';
-	font-weight: 200;
 	letter-spacing: 1px;
 	padding-top: 1.5%;
 	width: 340px;
@@ -94,7 +85,7 @@ hr {
 }
 
 .mainbtn p {
-	font-family: 'Kano', 'GL';
+	font-family: 'Josefin Sans';
 	letter-spacing: 1px;
 	font-size: 25px;
 }
@@ -114,16 +105,14 @@ hr {
 }
 
 #conlink {
-	margin-right: 60px;
-	margin-top: 60px;
 	font-size: 16px;
 	position: fixed;
 	right: 0;
 	z-index: 11;
 	cursor: pointer;
 	color: #fff;
-	font-family: 'Nevis', 'GB';
-	letter-spacing: 2px;
+	font-family: 'Lato';
+	letter-spacing: 2.5px;
 	text-transform: uppercase;
 }
 
@@ -152,7 +141,7 @@ hr {
 
 #contactsbar {
 	position: fixed;
-  right: 0;
+    right: 0;
 	width: 24%;
 	background-color: #22211f;
 	height: 100%;
@@ -161,23 +150,17 @@ hr {
 }
 
 #contactsbar ul {
-	top: 50%;
-	transform: translateY(-50%);
 	font-size: 1.9em;
 	width: 100%;
 	list-style-type: none;
-	text-align: center;
-	padding-left: 0%;
+	text-align: left;
 	z-index: 13;
 }
 
 #contactsbar li {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-family: 'GL';
+    font-size: 26px;
+	font-family: 'Raleway';
 	letter-spacing: 2px;
-	right: 0;
-	bottom: 0;
 	color: #fff;
 	z-index: 13;
 }
@@ -194,8 +177,7 @@ hr {
 #close {
 	width: 35px;
 	height: 35px;
-	margin-right: 100px;
-	margin-top: 60px;
+	margin-right: 80px !important;
 	right: 0;
 	z-index: 11;
 	float: right;
@@ -250,6 +232,10 @@ img.fbb, .fb:hover img.fbw, img.ldb, .fb:hover img.ldw, img.ghb, .fb:hover img.g
 	overflow: auto;
 }
 
+#portfolioitemgroup {
+    margin: 0 auto;
+}
+
 .portfolioitem, .portfolioitem * {
 	box-sizing: border-box;
 }
@@ -267,10 +253,6 @@ img.fbb, .fb:hover img.fbw, img.ldb, .fb:hover img.ldw, img.ghb, .fb:hover img.g
 
 .portfolioitem:hover {
 	transform: scale(1.02);
-}
-
-.top {
-	margin-top: 4%;
 }
 
 .left {
@@ -305,7 +287,7 @@ img.fbb, .fb:hover img.fbw, img.ldb, .fb:hover img.ldw, img.ghb, .fb:hover img.g
 .description {
 	text-align: center;
 	font-size: 24px;
-	font-family: 'Montserrat';
+	font-family: 'Raleway';
 	letter-spacing: 3px;
 	display: inline-block;
 	position: absolute;
@@ -324,12 +306,9 @@ img.fbb, .fb:hover img.fbw, img.ldb, .fb:hover img.ldw, img.ghb, .fb:hover img.g
 	height: 30vh;
 	text-align: center;
 	color: white;
-	font-family: 'Kano';
+	font-weight: 300;
+	font-family: 'Josefin Sans';
 	letter-spacing: 1px;
-}
-
-#contactssection h1 {
-	margin-bottom: 3%;
 }
 
 .socialbar {
@@ -372,14 +351,14 @@ img.fbb, .fb:hover img.fbw, img.ldb, .fb:hover img.ldw, img.ghb, .fb:hover img.g
 }
 
 .piicontent h1 {
-	font-family: 'Kano';
+	font-family: 'Josefin Sans';
 	letter-spacing: 2px;
 	font-size: 70px;
 }
 
 .piicontent h2 {
 	padding-top: 1%;
-	font-family: 'Montserrat';
+	font-family: 'Raleway';
 	letter-spacing: 2px;
 	font-size: 22px;
 	line-height: 1.5;
@@ -402,6 +381,10 @@ img.fbb, .fb:hover img.fbw, img.ldb, .fb:hover img.ldw, img.ghb, .fb:hover img.g
 	color: white;
 }
 
+.piitext h2 {
+    font-weight: 300;
+}
+
 .techicon {
 	width: 40px;
 	height: 40px;
@@ -410,8 +393,6 @@ img.fbb, .fb:hover img.fbw, img.ldb, .fb:hover img.ldw, img.ghb, .fb:hover img.g
 /* Portfolio Item Info Link */
 
 #backlink {
-	margin-right: 100px;
-	margin-top: 60px;
 	font-size: 16px;
 	position: fixed;
 	text-align: center;
@@ -419,7 +400,7 @@ img.fbb, .fb:hover img.fbw, img.ldb, .fb:hover img.ldw, img.ghb, .fb:hover img.g
 	z-index: 11;
 	cursor: pointer;
 	color: #fff;
-	font-family: 'Nevis', 'GB';
+	font-family: 'Lato';
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	display: inline;
@@ -469,7 +450,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-	font-family: "GL";
+	font-family: 'Raleway';
 	letter-spacing: 1px;
 	/* color: #545454; */
 	color: white;
@@ -499,13 +480,13 @@ footer {
 }
 
 .notfoundtext h1 {
-    font-family: 'Kano';
+    font-family: 'Josefin Sans';
     font-size: 100px;
     letter-spacing: 2px;
 }
 
 .notfoundtext h2 {
-    font-family: 'Montserrat';
+    font-family: 'Raleway';
 }
 
 /* Scrollbar */
@@ -556,21 +537,12 @@ footer {
 		margin-right: -50%;
 }
 
-#contactsbar ul {
-		margin-top: 60%;
-		font-size: 1.9em;
-}
-
 #logolink {
-	margin-right: 60px;
-	margin-top: 40px;
 	font-size: 35px;
 }
 
 
 #conlink {
-	margin-right: 60px;
-	margin-top: 60px;
 	font-size: 14px;
 }
 
@@ -606,7 +578,6 @@ footer {
 }
 
 .homepagetext h1 {
-	font-family: 'Kano';
 	letter-spacing: 3px;
 }
 
@@ -728,44 +699,9 @@ footer h5 {
 
 /* Fonts */
 
- @font-face {
-  font-family: 'GL';
-  src: url('../fonts/Gilroy-light.OTF') format("truetype");
-}
-
- @font-face {
-  font-family: 'GB';
-  src: url('../fonts/Gilroy-bold.OTF') format("truetype");
-}
-
-@font-face {
-  font-family: 'Nevis';
-  src: url('../fonts/NEVIS.TTF');
-}
-
-@font-face {
-  font-family: 'Kano';
-  src: url('../fonts/KANO.OTF');
-}
-
 @font-face {
   font-family: 'Anurati';
   src: url('../fonts/Anurati.otf');
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/Montserrat.otf');
-}
-
-@font-face {
-  font-family: 'Charlevoix-Light';
-  src: url('../fonts/CharlevoixPro-Light.otf');
-}
-
-@font-face {
-  font-family: 'Charlevoix-Medium';
-  src: url('../fonts/CharlevoixPro-Medium.otf');
 }
 
 /* Sweep To Right */
@@ -810,4 +746,31 @@ footer h5 {
 .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+/* Helping classes */
+
+.whitetext {
+    color: white;
+    font-size: 24px;
+    font-family: 'Raleway';
+}
+
+a, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.solidlink, .solidlink:visited, .solidlink:hover, .solidlink:active {
+     border-bottom: 1.5px white solid;
+}
+
+.solidlink:hover {
+    font-weight: 700;    
+}
+
+.valign {
+    position: relative;
+  top: 50%;
+  transform: translateY(-50%);    
 }
