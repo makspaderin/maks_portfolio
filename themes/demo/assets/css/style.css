@@ -1,10 +1,14 @@
 /* Main Page */
 
+body {
+    overflow-x: hidden;
+}
+
 #mainpage {
-	background-color: #2d2c2a;
+	// background-color: #2d2c2a;
+	background-color: #353532;
 	background-repeat: no-repeat;
 	background-size: cover;
-	overflow-x: hidden;
 	position: relative;
 }
 
@@ -142,10 +146,11 @@ hr {
 #contactsbar {
 	position: fixed;
     right: 0;
-	width: 24%;
-	background-color: #22211f;
+	width: 20%;
+	// background-color: #22211f;
+	background-color: #151413;
 	height: 100%;
-	margin-right: -24%;
+	margin-right: -20%;
 	z-index: 12;
 }
 
@@ -175,10 +180,10 @@ hr {
 }
 
 #close {
+    font-size: 50px;
 	width: 35px;
 	height: 35px;
-	margin-right: 80px !important;
-	right: 0;
+	margin-right: 16% !important;
 	z-index: 11;
 	float: right;
 	color: #fff;
@@ -186,7 +191,7 @@ hr {
 }
 
 .grow { transition: all .25s ease-in-out; }
-.grow:hover { transform: scale(1.25); }
+.grow:hover { transform: scale(1.1); }
 
 /* Social icons */
 
@@ -228,7 +233,7 @@ img.fbb, .fb:hover img.fbw, img.ldb, .fb:hover img.ldw, img.ghb, .fb:hover img.g
 	min-height: 100vh;
 	min-width: 100vw;
 	height: auto;
-  background-color: #22211f;
+    background-color: #22211f;
 	overflow: auto;
 }
 
@@ -302,8 +307,8 @@ img.fbb, .fb:hover img.fbw, img.ldb, .fb:hover img.ldw, img.ghb, .fb:hover img.g
 /* Contacts section */
 
 #contactssection {
-	background-color: #2d2c2a;
-	height: 30vh;
+	// background-color: #2d2c2a;
+	background-color: #353532;
 	text-align: center;
 	color: white;
 	font-weight: 300;
@@ -315,7 +320,6 @@ img.fbb, .fb:hover img.fbw, img.ldb, .fb:hover img.ldw, img.ghb, .fb:hover img.g
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
-	height: 30%;
 }
 
 /* Portfolio Item Info Page */
@@ -446,10 +450,6 @@ img.fbb, .fb:hover img.fbw, img.ldb, .fb:hover img.ldw, img.ghb, .fb:hover img.g
 /* Footer */
 
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
 	font-family: 'Raleway';
 	letter-spacing: 1px;
 	/* color: #545454; */
@@ -752,7 +752,8 @@ footer h5 {
 
 .whitetext {
     color: white;
-    font-size: 24px;
+    font-size: 26px;
+    letter-spacing: 1.2px;
     font-family: 'Raleway';
 }
 

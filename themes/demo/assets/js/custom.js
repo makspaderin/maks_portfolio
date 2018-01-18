@@ -16,7 +16,7 @@ if ($(window).width() > 1020) {
 if ($(window).width() > 1900) {
   $('#close').click(function() {
     $('#contactsbar').animate(  {
-      marginRight: "-24%"
+      marginRight: "-20%"
     });
   });
 } else if (($(window).width() < 1900) && ($(window).width() > 1400)) {
